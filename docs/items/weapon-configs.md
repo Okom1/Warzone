@@ -197,7 +197,7 @@ The configurations that make up each of the custom weapons.
 ## [16] Pulse Wave
 - Weapon Type: Pulse Carbine + Scatterbound Heatwave
 - Trait Set: 16
-  - Weapon Damage: 0.40
+  - Weapon Damage: 0.35
 - Config: Combo
 - Ammo: 60% (-60)
 - Point Cost: 5
@@ -298,6 +298,7 @@ The configurations that make up each of the custom weapons.
 ## [26] Phantom Assassin
 - Weapon Type: Cindershot + M41 Tracker
 - Trait Set: 26
+  - Weapon Damage: 1.50
 - Config: Combo
 - Ammo: 6+0 (-35)
 - Point Cost: 6
@@ -510,7 +511,7 @@ The configurations that make up each of the custom weapons.
 - Ammo: 10+20 (+25)
 - Point Cost: 2
 - Level: 2
-- Notes: -
+- Notes: Explosion impulse affects units and registered vehicles.
 
 ## [42] ONI Assault Rifle
 - Weapon Type: MA40 Assault Rifle + Impact Commando
@@ -561,14 +562,17 @@ The configurations that make up each of the custom weapons.
 - Notes: Requires 8 needles to land on target to supercombine and kill a Spartan; individual needles do little damage.
   
 ## [46] Light Of Doisac
-- Weapon Type: S7 Sniper Rifle + Purging Shock Rifle
+- Weapon Type: S7 Sniper Rifle + Stalker Rifle Ultra
 - Trait Set: 46
-  - Weapon Damage: 1.60
 - VFX: VIP (36)
-- Config: Combo
-- Ammo: 15+45 (+17)
-- Point Cost: 6
-- Level: 6
+- Config: Projectile
+  - Shot Count: 1
+  - Shot Velocity: 2000
+  - Projectile Config: 1
+  - Projectile: Banished Hunter Shot
+- Ammo: 4+20 (+100)
+- Point Cost: 7
+- Level: 7
 - Notes: -
 
 ## [47] Scorpion Tail
@@ -670,12 +674,12 @@ The configurations that make up each of the custom weapons.
 ## [56] Poisoned Pulse Carbine
 - Weapon Type: Pulse Carbine + Pinpoint Needler
 - Trait Set: 56
-  - Weapon Damage: 0.50
+  - Weapon Damage: 1.50
 - Config: Combo
 - Ammo: 100%
-- Point Cost: 2
-- Level: 2
-- Notes: Requires two supercombines to kill.
+- Point Cost: 6
+- Level: 6
+- Notes: -
 
 ## [57] Bassus Artifact
 - Weapon Type: Gravity Hammer + S7 Flexfire Sniper
