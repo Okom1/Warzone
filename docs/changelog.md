@@ -611,6 +611,10 @@ Current state: Mode working fully, with some notable missing features:
 - Updated sandbox-warzone to 1.11.0
 - Added checking for the "drop equipment" message in the prompt widget loop to override the points message
 
+### 1.0.16
+
+- Updated sandbox-warzone to 1.12.0
+
 
 
 
@@ -1595,10 +1599,34 @@ Adjusted equipment:
 - Adjusted ability boosts:
   - [4] Grenadier
     - Grenade Damage Scalar: 0.91 → **0.85**
-  - Grenade Damage: 1.10 → **1.18**
-  - Grenade Detonation Radius: 1.52 → **1.80**
+    - Grenade Damage: 1.10 → **1.18**
+    - Grenade Detonation Radius: 1.52 → **1.80**
 
 - Added ability to drop held equipment by holding the custom input while crouched. Legendary equipment can't be dropped.
+
+### 0.12.0
+
+- Adjusted weapons:
+  - [16] Pulse Wave
+    - Weapon Damage: 0.40 → **0.35**
+  - [26] Phantom Assassin
+    - Weapon Damage: 1.00 → **1.50**
+  - [41] A Go At
+    - Explosion impulse now also affects vehicles
+  - [46] Light Of Doisac
+    - Weapon Type: S7 Sniper Rifle + Purging Shock Rifle → **S7 Sniper Rifle + Stalker Rifle Ultra**
+      - Weapon Damage: 1.60 → **1.00**
+    - Config: Combo → **Projectile**
+      - Shot Count: 1
+      - Shot Velocity: 2000
+      - Projectile Config: 1
+      - Projectile: Banished Hunter Shot
+    - Ammo: 15+45 → **4+20**
+  - [56] Poisoned Pulse Carbine
+    - Weapon Damage: 0.50 → **1.50**
+
+
+
 
 
 
@@ -2214,3 +2242,17 @@ Adjusted vehicles:
     - Point Cost: 2 → **4**
   - [14] Headshot Shielding
     - Point Cost: 3 → **2**
+
+### 1.7.1
+
+Disabled debug print about weapon displacement from spawn points
+
+### 1.8.0
+
+- Adjusted weapons:
+  - [46] Light Of Doisac
+    - Tier: 6 → **7**
+  - [56] Poisoned Pulse Carbine
+    - Tier: 2 → **6**
+
+- Removed "On Custom Input Tap" custom event in favor of the native event.
