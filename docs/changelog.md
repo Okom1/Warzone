@@ -615,8 +615,9 @@ Current state: Mode working fully, with some notable missing features:
 
 - Updated sandbox-warzone to 1.12.0
 
+### 1.0.17
 
-
+- Updated sandbox-warzone to 1.13.0
 
 
 
@@ -1604,7 +1605,7 @@ Adjusted equipment:
 
 - Added ability to drop held equipment by holding the custom input while crouched. Legendary equipment can't be dropped.
 
-### 0.12.0
+### 1.12.0
 
 - Adjusted weapons:
   - [16] Pulse Wave
@@ -1625,9 +1626,32 @@ Adjusted equipment:
   - [56] Poisoned Pulse Carbine
     - Weapon Damage: 0.50 → **1.50**
 
+### 1.13.0
 
+- Adjusted weapons:
+  - [26] Phantom Assassin
+    - Weapon Damage: 1.50 → **0.60**
+    - Ammo: 6+0 → **6+10** (+25)
+  - [30] Doom Of Reach
+    - Direct Damage Scalar: 2.10 → **2.00**
+    - Grenade Damage Scalar: 0.476 → **0.70**
+    - Explosive Damage Scalar: 0.476 → **0.70**
+  - [35] Rogue Juggernaut
+    - Direct Damage Scalar: 2.10 → **2.00**
+    - Grenade Damage Scalar: 0.476 → **0.70**
+    - Explosive Damage Scalar: 0.476 → **0.70**
+  - [41] A Go At
+    - Removed explosion impulse affecting vehicles
+  - [46] Light Of Doisac
+      - Weapon Damage: 1.00 → **1.50**
 
-
+- Adjusted equipment
+  - [12] Doomfruit
+    - Direct Damage Scalar: 2.10 → **2.00**
+    - Grenade Damage Scalar: 0.476 → **0.70**
+    - Explosive Damage Scalar: 0.476 → **0.70**
+  - [16] Legendary Grappleshot
+    - Weapon Damage: 3.00 → **2.20**
 
 
 
