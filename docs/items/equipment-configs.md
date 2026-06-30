@@ -163,9 +163,9 @@ The configurations that make up each of the equipment, including custom powerups
 - Equipment Type: Custom Equipment B
 - Trait Set: doomfruit
   - Damage Resistance
-    - Direct Damage Scalar: 2.10
-    - Grenade Damage Scalar: 0.476
-    - Explosive Damage Scalar: 0.476
+    - Direct Damage Scalar: 2.00
+    - Grenade Damage Scalar: 0.70
+    - Explosive Damage Scalar: 0.70
 - Custom Charge Count: 1
 - Default Charge Count: 1
 - Duration: 60 s
@@ -220,7 +220,7 @@ The configurations that make up each of the equipment, including custom powerups
 - Custom Charge Count: 5
 - Default Charge Count: 2
 - Trait Set: legendaryGrappleMelee (while grappling)
-  - Weapon Damage: 3.00
+  - Weapon Damage: 2.20
   - Damage Resistance
     - Direct Damage Scalar: 1.00
     - Grenade Damage Scalar: 0.60

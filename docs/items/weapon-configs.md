@@ -298,9 +298,9 @@ The configurations that make up each of the custom weapons.
 ## [26] Phantom Assassin
 - Weapon Type: Cindershot + M41 Tracker
 - Trait Set: 26
-  - Weapon Damage: 1.50
+  - Weapon Damage: 0.60
 - Config: Combo
-- Ammo: 6+0 (-35)
+- Ammo: 6+10 (+25)
 - Point Cost: 6
 - Level: 6
 - Notes: -
@@ -348,9 +348,9 @@ The configurations that make up each of the custom weapons.
   - Weapon Damage: 0.40
   - Movement Speed With Turret: 1.47
   - Damage Resistance
-    - Direct Damage Scalar: 2.10
-    - Grenade Damage Scalar: 0.476
-    - Explosive Damage Scalar: 0.476
+    - Direct Damage Scalar: 2.00
+    - Grenade Damage Scalar: 0.70
+    - Explosive Damage Scalar: 0.70
 - VFX: Infected Alpha (11)
 - Config: Combo
 - Ammo: 100%
@@ -415,9 +415,9 @@ The configurations that make up each of the custom weapons.
 - Weapon Type: Infected Energy Sword + Unbound Plasma Pistol
 - Trait Set (while zoomed): 35
   - Damage Resistance
-    - Direct Damage Scalar: 2.10
-    - Grenade Damage Scalar: 0.476
-    - Explosive Damage Scalar: 0.476
+    - Direct Damage Scalar: 2.00
+    - Grenade Damage Scalar: 0.70
+    - Explosive Damage Scalar: 0.70
   - VFX - Overshield: TRUE
 - VFX (while zoomed): VIP (32)
 - Config: Combo
@@ -511,7 +511,7 @@ The configurations that make up each of the custom weapons.
 - Ammo: 10+20 (+25)
 - Point Cost: 2
 - Level: 2
-- Notes: Explosion impulse affects units and registered vehicles.
+- Notes: Custom explosion impulse only affects units.
 
 ## [42] ONI Assault Rifle
 - Weapon Type: MA40 Assault Rifle + Impact Commando
@@ -564,6 +564,7 @@ The configurations that make up each of the custom weapons.
 ## [46] Light Of Doisac
 - Weapon Type: S7 Sniper Rifle + Stalker Rifle Ultra
 - Trait Set: 46
+  - Weapon Damage: 1.50
 - VFX: VIP (36)
 - Config: Projectile
   - Shot Count: 1
