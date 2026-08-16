@@ -619,6 +619,14 @@ Current state: Mode working fully, with some notable missing features:
 
 - Updated sandbox-warzone to 1.13.0
 
+### 1.0.18
+
+- Adjusted core damage scalar from 0.18 to 0.09 so damage to the core is half as effective as before
+
+### 1.1.0
+
+- Updated sandbox-warzone to 1.13.1
+
 
 
 
@@ -1653,6 +1661,11 @@ Adjusted equipment:
   - [16] Legendary Grappleshot
     - Weapon Damage: 3.00 → **2.20**
 
+### 1.13.1
+
+- Adjusted equipment
+  - [16] Legendary Grappleshot
+    - Charge Count: 5 → **3**
 
 
 
@@ -2280,3 +2293,7 @@ Disabled debug print about weapon displacement from spawn points
     - Tier: 2 → **6**
 
 - Removed "On Custom Input Tap" custom event in favor of the native event.
+
+### 1.8.1
+
+- Forgot what was changed; something small
